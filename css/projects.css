@@ -1,0 +1,71 @@
+.picture-block {
+    background-color: var(--color-primary);
+    border-radius: 0.5rem;
+    width: 100vw;
+    padding-bottom: 2rem;
+  }
+
+.project-page-heading {
+    font-family: var(--font-headers);
+    font-size: var(--font-40);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.current-description {
+    color: var(--color-base);
+    font-family: var(--font-paras);
+    font-size: var(--font-24);
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.project-page-heading#current {
+    color: var(--color-base);
+    padding-top: 2rem;
+}
+
+.project-page-heading#past {
+    color: var(--color-title);
+    text-transform: uppercase;
+}
+
+.projects-button-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.projects-button-list li button {
+    background: rgb(255, 255, 255, 0.5);
+    border: 1px solid var(--color-primary);
+    border-radius: 10px;
+    padding: 3rem 1rem;
+    box-sizing: border-box;
+    margin: 0.5rem;
+    width: 95vw;
+
+    font-size: var(--font-24);
+    color: var(--color-text);
+}
+
+.back-link {
+    margin: 1rem;
+    font-family: 'Inter';
+    color: var(--color-secondary);
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    text-align: right;
+}
+
+.text-block-curved#project-video {
+    padding: 1.75rem 0;
+}
+
+.project-video {
+    margin-bottom: 1rem;
+}
+
+.current-photo {
+    width: 100vw;
+}

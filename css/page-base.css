@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'LeagueSpartan';
+    src: url('../fonts/LeagueSpartan-Bold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: bold;
+}
+
+/* Regular Style */
+@font-face {
+    font-family: 'DMSans';
+    src: url('../fonts/DMSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Italic Style */
+@font-face {
+    font-family: 'DMSans';
+    src: url('../fonts/DMSans-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Extra Bold */
+@font-face {
+    font-family: 'DMSans';
+    src: url('../fonts/DMSans-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+:root {
+    --color-base: #D9C9B9;
+    --color-primary: #27210D;
+    --color-secondary: #4A4B33;
+    --color-icon: #475019;
+    --color-title: #4A588A;
+    --color-text: #1E190A;
+    --color-link: #031A6B;
+    --color-white: #E8E8E8;
+
+    --font-headers: 'LeagueSpartan', sans-serif;
+    --font-paras: 'DM Sans', sans-serif;
+
+    --font-weight-regular: 400;
+    --font-weight-bold: 800;
+
+    --font-30: 1.875rem;
+    --font-32: 2rem;
+    --font-40: 2.5rem;
+    --font-24: 1.5rem;
+    --font-20: 1.25rem;
+    --font-75: 4.6875rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-base);
+    margin: 0;
+}
+
+.page-title {
+    color: var(--color-title);
+    font-family: var(--font-headers);
+    font-size: var(--font-75);
+    text-transform: uppercase;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.text-block {
+    background-color: var(--color-secondary);
+    padding: 1rem;
+    margin: 0;
+}
+
+.text-block-curved {
+    background-color: var(--color-secondary);
+    margin: 0.25rem 0.75rem 0 0.75rem;
+    border-radius: 25px;
+    padding: 1rem;
+}

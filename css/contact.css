@@ -1,0 +1,36 @@
+.text-block-curved ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.text-block-curved li {
+    margin: 2rem 2rem 1.5rem 2rem;
+}
+
+.text-block-curved i:first-child {
+    margin-top: 1rem;
+}
+
+.contact-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: var(--font-30);
+    font-family: var(--font-paras);
+    color: var(--color-base);
+    text-decoration: none;
+}
+
+.contact-btn a { /* text */
+    color: var(--font-base);
+    font-family: var(--font-paras);
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.contact-btn i { /* icon */
+    margin-right: 1rem;
+    font-size: var(--font-30);
+}

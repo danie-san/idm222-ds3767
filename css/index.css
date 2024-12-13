@@ -1,0 +1,133 @@
+.home-title {
+    color: var(--color-title);
+    line-height: 1;
+    font-family: var(--font-headers);
+    font-size: 6.25rem;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.home-title span {
+    text-align: right;
+}
+
+img {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.subtitle {
+    color: var(--color-text);
+    font-family: var(--font-paras);
+    font-size: var(--font-24);
+    font-weight: var(--font-weight-regular);
+    font-style: italic;
+    margin: 3rem 1rem 5rem 1rem;
+}
+
+.subtitle span {
+    color: var(--color-title);
+    font-size: var(--font-30);
+    font-weight: var(--font-weight-bold);
+}
+
+.page-buttons {
+    margin: 2rem;
+}
+
+.page-buttons ul {
+    list-style: none;
+    margin: 5rem 0 0 0;
+    padding: 0;
+}
+
+.page-buttons li {
+    margin-right: 1rem;
+}
+
+.button-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-family: var(--font-headers);
+    font-size: var(--font-32);
+    font-weight: bold;
+    color: var(--color-text);
+    background: none;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.picture-block {
+    background-color: var(--color-primary);
+    border-radius: 0.5rem;
+    width: 100vw;
+    padding-bottom: 2rem;
+}
+
+.cover-image {
+    border-radius: 20px;
+    margin: 3rem 0 5rem 0;
+}
+
+.break {
+    display: block;
+}
+
+.current-project-section h2 {
+    color: var(--color-title);
+    font-family: var(--font-paras);
+    font-size: var(--font-30);
+    align-items: center;
+    width: 100%;
+    padding: 0rem 1rem 0rem 1rem;
+    margin: 0 1rem 1rem 0;
+}
+
+.current-project-section p {
+    color: var(--color-text);
+    font-family: var(--font-paras);
+    font-size: var(--font-24);
+    align-items: center;
+    width: 100%;
+    padding: 0rem 1rem 0rem 1rem;
+    margin: 0 1rem 1rem 0;
+}
+
+.contact-section ul{
+    margin: 0;
+}
+
+.contact-btn {
+    background: none;
+    border: none;
+    padding: 0rem 1rem 0rem 1rem;
+    margin: 0 1rem 1rem 0;
+    font-size: var(--font-24);
+    font-family: var(--font-paras);
+    cursor: pointer;
+    color: var(--color-text);
+    display: flex;
+    text-decoration: none;
+}
+
+.contact-btn a {
+    color: var(--color-text);
+    font-family: var(--font-paras);
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.contact-btn i {
+    margin-right: 1rem;
+    font-size: var(--font-24);
+}

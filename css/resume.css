@@ -1,0 +1,29 @@
+.resume-block {
+    padding: 1rem;
+    margin: 0;
+
+    p {
+        margin: 0;
+        color: var(--color-text);
+        font-family: var(--font-paras);
+        font-size: var(--font-24);
+    }
+}
+
+.resume-subtitle {
+    color: var(--color-title);
+    font-family: var(--font-headers);
+    font-size: var(--font-30);
+}
+
+.resume-subtitle-white {
+    color: var(--color-white);
+    font-family: var(--font-headers);
+    font-size: var(--font-30);
+  }
+
+.text-block-curved p {
+  color: var(--color-white);
+  font-family: var(--font-paras);
+  font-size: var(--font-24);
+}
