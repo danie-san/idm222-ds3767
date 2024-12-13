@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details</title>
+    <link rel="stylesheet" href="css/page-base.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/projects.css">
+</head>
+
+<body>
+    <header>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav>
+            <ul>
+                <li><a href="index.html">Evan Harris</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="projects.html" class="back-link">Return to Projects</a>
+    </header>
+
+    <main>
+        <h1 class="page-title">Ryan Dutsch is a Murderer (Not Clickbait)</h1>
+        <div class="text-block-curved">
+            <video class="project-video" controls width="100%">
+                <source src="media/videos" type="video/mp4">
+            </video>
+            <p class="film-description">Cinematography and Written by Evan Harris</p>
+        </div>
+    </main>
+</body>
+
+<script>
+    function showContent(section){
+        let section = document.getElementById(id);
+        if (section.style.display === "none" || section.style.display === "") {
+            section.style.display = "block";
+        } else {
+            section.style.display = "none";
+        }
+    }
+</script>
+</html>
