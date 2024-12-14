@@ -37,8 +37,8 @@
 }
 
 .projects-button-list li button {
-    background: rgb(255, 255, 255, 0.5);
-    border: 1px solid var(--color-primary);
+    background: rgb(39, 33, 13, 0.75);
+    border: none;
     border-radius: 10px;
     padding: 3rem 1rem;
     box-sizing: border-box;
@@ -46,7 +46,7 @@
     width: 95vw;
 
     font-size: var(--font-24);
-    color: var(--color-text);
+    color: var(--color-base);
 }
 
 .back-link {

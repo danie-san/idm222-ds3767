@@ -1,0 +1,10 @@
+.picture-block {
+    background-color: var(--color-primary);
+    border-radius: 0.5rem;
+    width: 100vw;
+    padding: 3rem 0 0 3rem;
+  }
+
+  .gallery-photo {
+    width: 100vw;
+}
