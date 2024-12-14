@@ -1,10 +1,18 @@
-.picture-block {
-    background-color: var(--color-primary);
-    border-radius: 0.5rem;
-    width: 100vw;
-    padding: 3rem 0 0 3rem;
-  }
+.gallery {
+    max-width: 1200px;
+    margin: 1rem auto;
+    padding: 3rem 1rem;
+    background-color: var(--color-primary); 
+    border-radius: 12px; 
+}
 
-  .gallery-photo {
-    width: 100vw;
+.picture-block {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.gallery-photo {
+    width: 100%; 
+    height: auto;
+    border-radius: 8px;
 }
