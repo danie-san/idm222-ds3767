@@ -1,5 +1,4 @@
 .picture-block {
-    background-color: var(--color-primary);
     border-radius: 0.5rem;
     width: 100vw;
     padding-bottom: 2rem;
@@ -13,7 +12,7 @@
 }
 
 .current-description {
-    color: var(--color-base);
+    color: var(--color-white);
     font-family: var(--font-paras);
     font-size: var(--font-24);
     text-align: center;
@@ -21,12 +20,12 @@
 }
 
 .project-page-heading#current {
-    color: var(--color-base);
+    color: var(--color-white);
     padding-top: 2rem;
 }
 
 .project-page-heading#past {
-    color: var(--color-title);
+    color: var(--color-white);
     text-transform: uppercase;
 }
 
