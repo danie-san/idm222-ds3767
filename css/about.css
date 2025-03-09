@@ -1,5 +1,9 @@
+.text-block-curved {
+    color: var(--color-primary);
+}
+
 .text-block-curved p {
-    color: var(--color-white);
+    color: var(--color-base);
     font-family: var(--font-paras);
     font-size: var(--font-24);
   }
@@ -34,7 +38,7 @@
     font-family: var(--font-headers);
     font-size: var(--font-30);
     font-weight: bold;
-    color: var(--color-text);
+    color: var(--color-secondary);
     background: none;
     border: none;
     text-align: left;

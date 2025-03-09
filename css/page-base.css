@@ -83,7 +83,7 @@ body {
 }
 
 .text-block-curved {
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     margin: 0.25rem 0.75rem 0 0.75rem;
     border-radius: 25px;
     padding: 1rem;
