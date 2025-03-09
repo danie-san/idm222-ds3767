@@ -1,5 +1,5 @@
 .home-title {
-    color: var(--color-title);
+    color: var(--color-primary);
     line-height: 1;
     font-family: var(--font-headers);
     font-size: 6.25rem;
@@ -29,7 +29,7 @@ img {
 }
 
 .subtitle span {
-    color: var(--color-title);
+    color: var(--color-primary);
     font-size: var(--font-30);
     font-weight: var(--font-weight-bold);
 }
@@ -68,8 +68,6 @@ img {
 }
 
 .picture-block {
-    background-color: var(--color-primary);
-    border-radius: 0.5rem;
     width: 100vw;
     padding-bottom: 2rem;
 }
@@ -84,7 +82,7 @@ img {
 }
 
 .current-project-section h2 {
-    color: var(--color-title);
+    color: var(--color-primary);
     font-family: var(--font-paras);
     font-size: var(--font-30);
     align-items: center;
@@ -94,7 +92,7 @@ img {
 }
 
 .current-project-section p {
-    color: var(--color-text);
+    color: var(--color-white);
     font-family: var(--font-paras);
     font-size: var(--font-24);
     align-items: center;
@@ -115,13 +113,13 @@ img {
     font-size: var(--font-24);
     font-family: var(--font-paras);
     cursor: pointer;
-    color: var(--color-text);
+    color: var(--color-white);
     display: flex;
     text-decoration: none;
 }
 
 .contact-btn a {
-    color: var(--color-text);
+    color: var(--color-white);
     font-family: var(--font-paras);
     margin-left: 10px;
     font-weight: bold;
