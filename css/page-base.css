@@ -30,12 +30,12 @@
 }
 
 :root {
-    --color-base: #D9C9B9;
-    --color-primary: #27210D;
-    --color-secondary: #4A4B33;
-    --color-icon: #475019;
-    --color-title: #4A588A;
-    --color-text: #1E190A;
+    --color-base: #1B1F39;
+    --color-primary: #EB4C17;
+    --color-secondary: #DCCBAF;
+    --color-icon: #EB4C17;
+    --color-title: #EB4C17;
+    --color-text: #031A6B;
     --color-link: #031A6B;
     --color-white: #E8E8E8;
 
@@ -45,12 +45,17 @@
     --font-weight-regular: 400;
     --font-weight-bold: 800;
 
+    --font-20: 1.25rem;
+    --font-24: 1.5rem;
     --font-30: 1.875rem;
     --font-32: 2rem;
+    --font-36: 2.25rem;
     --font-40: 2.5rem;
-    --font-24: 1.5rem;
-    --font-20: 1.25rem;
+    --font-48: 3rem;
+    --font-58: 3.625rem;
+    --font-68: 4.25rem;
     --font-75: 4.6875rem;
+    --font-250: 15.625rem;
 }
 
 * {

@@ -20,7 +20,7 @@ img {
 }
 
 .subtitle {
-    color: var(--color-text);
+    color: var(--color-white);
     font-family: var(--font-paras);
     font-size: var(--font-24);
     font-weight: var(--font-weight-regular);
@@ -57,7 +57,7 @@ img {
     font-family: var(--font-headers);
     font-size: var(--font-32);
     font-weight: bold;
-    color: var(--color-text);
+    color: var(--color-secondary);
     background: none;
     border: none;
     text-align: left;
