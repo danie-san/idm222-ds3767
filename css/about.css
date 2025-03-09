@@ -1,4 +1,8 @@
-.text-block-curved {
+.page-title#about {
+    color: var(--color-secondary);
+}
+
+.text-block-curved#about{
     color: var(--color-primary);
 }
 
