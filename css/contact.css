@@ -1,3 +1,15 @@
+#contact-body {
+    background-color: var(--color-primary);
+}
+
+.page-title#contact {
+    color: var(--color-base);
+}
+
+.text-block-curved#contact{
+    background-color: var(--color-secondary);
+}
+
 .text-block-curved ul {
     list-style: none;
     padding: 0;
