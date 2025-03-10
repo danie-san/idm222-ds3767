@@ -3,7 +3,7 @@
 }
 
 .text-block-curved#about{
-    color: var(--color-primary);
+    background-color: var(--color-primary);
 }
 
 .text-block-curved p {
