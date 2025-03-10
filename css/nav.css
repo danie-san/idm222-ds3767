@@ -12,32 +12,36 @@ header label {
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  gap: 0.2rem;
-  height: auto;
+  gap: 0.35rem;
+  height: 2rem;
   width: auto;
   z-index: 1001;
   margin-left: 0;
+  position: relative;
 }
 
 header label span {
   border-radius: 5px;
   display: block;
   height: 0.5rem;
-  width: 1rem;
+  width: 1.5rem;
   background-color: var(--color-secondary);
   position: relative;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
-header label span:nth-child(1) {
-  margin-left: 0;
-}
-
-header label span:nth-child(2) {
-  margin-left: 0.4rem;
-}
-
+header label span:nth-child(1),
+header label span:nth-child(2),
 header label span:nth-child(3) {
-  margin-left: 0.8rem;
+  transform: translateX(0);
+}
+
+.nav-toggle:checked~.nav-toggle-label span:nth-child(2) {
+  transform: translateX(0.4rem);
+}
+
+.nav-toggle:checked~.nav-toggle-label span:nth-child(3) {
+  transform: translateX(0.8rem);
 }
 
 nav {
@@ -48,6 +52,7 @@ nav {
   left: -300px;
   top: 0;
   z-index: 1000;
+  transition: left 0.3s ease-in-out;
 }
 
 nav ul {
@@ -59,15 +64,15 @@ nav ul {
 nav ul li {
   font-family: var(--font-paras);
   font-size: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 nav ul li:first-child {
   font-family: var(--font-headers);
   font-weight: bold;
   font-size: 2rem;
-  margin-top: 6rem;
-  margin-bottom: 3rem;
+  margin-top: 8rem;
+  margin-bottom: 2rem;
 }
 
 nav ul li a {
@@ -79,12 +84,11 @@ nav ul li a {
   background-color: var(--color-secondary);
 }
 
-.nav-toggle:checked~nav {
-  background-color: var(--color-secondary);
+.nav-toggle:checked ~ nav {
   left: 0;
 }
 
-.nav-toggle:checked~.nav-toggle-label span {
+.nav-toggle:checked ~ .nav-toggle-label span {
   background-color: var(--color-base);
 }
 
