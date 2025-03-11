@@ -87,3 +87,15 @@ body {
     border-radius: 25px;
     padding: 1rem;
 }
+
+.circle-71 {
+    width: 71px;
+    height: 71px;
+    border-radius: 50%;
+}
+
+.circle-230 {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+}

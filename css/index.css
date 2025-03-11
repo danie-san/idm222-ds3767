@@ -3,7 +3,7 @@
     line-height: 1;
     font-family: var(--font-headers);
     font-size: 6.25rem;
-    margin: 0;
+    margin: 0 0.75rem 0 1.25rem;
     text-transform: uppercase;
     text-align: left;
 }
@@ -128,4 +128,26 @@ img {
 .contact-btn i {
     margin-right: 1rem;
     font-size: var(--font-24);
+}
+
+.cover-image-2 {
+    position: absolute;
+    right: 0.25rem;
+    bottom: 1rem;
+    width: 15rem;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.circle-71#index-1 {
+    position: relative;
+    background-color: var(--color-primary);
+    bottom: 6rem;
+    left: 10rem;
+    z-index: 1;
+}
+
+.circle-230#index {
+    position: absolute;
+    background-color: var(--color-secondary);
 }
