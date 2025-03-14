@@ -71,7 +71,7 @@ img {
     font-weight: var(--font-weight-light);
     font-size: var(--font-24);
     font-style: italic;
-    margin: 3rem 1rem 5rem 1rem;
+    margin: 0.5rem 1rem 0rem 1rem;
 }
 
 .subtitle span {
