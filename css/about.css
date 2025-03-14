@@ -4,23 +4,30 @@
 
 .text-block-curved#about{
     background-color: var(--color-primary);
+    
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
 
 .text-block-curved p {
     color: var(--color-base);
     font-family: var(--font-paras);
     font-size: var(--font-24);
+    grid-area: 2 / 1 / 6 / 10;
   }
 
 .text-block-curved p.text-chunk {
-    margin: 1rem 0 3rem 0;
-    line-height: 2rem;
+    margin: 0 0 5rem 0;
+    line-height: 1.75rem;
     word-spacing: 0.2rem;
-    text-align: justify;
+    text-align: left;
 }
 
 .page-buttons {
-    margin: 2rem;
+    margin: 7rem 2rem 5rem 2rem;
 }
 
 .page-buttons ul {
@@ -39,7 +46,7 @@
     align-items: center;
     width: 100%;
     padding: 0.5rem 1rem;
-    font-family: var(--font-headers);
+    font-family: var(--font-subheaders);
     font-size: var(--font-30);
     font-weight: bold;
     color: var(--color-secondary);
@@ -50,4 +57,15 @@
     transition: background-color 0.2s ease, transform 0.2s ease;
     text-decoration: none;
     margin-bottom: 1rem;
+}
+
+.circle-71#index-1 {
+    background-color: var(--color-secondary);
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.circle-230#index-1 {
+    background-color: var(--color-secondary);
+    grid-area: 6 / 7 / 7 / 10;
+    margin-bottom: -7rem;
 }
