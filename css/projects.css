@@ -1,22 +1,27 @@
 .picture-block {
-    border-radius: 0.5rem;
     width: 100vw;
     padding-bottom: 2rem;
-  }
 
-.project-page-heading {
-    font-family: var(--font-headers);
-    font-size: var(--font-40);
-    padding: 1rem;
-    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
 
-.current-description {
-    color: var(--color-white);
-    font-family: var(--font-paras);
-    font-size: var(--font-24);
-    text-align: center;
-    padding-bottom: 1rem;
+img {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.project-page-heading {
+    font-family: var(--font-subheaders);
+    font-size: var(--font-30);
+    text-align: left;
+    padding: 1rem 1rem 0 1.5rem;
+    margin: 1rem 1rem 0 1.5rem;
 }
 
 .project-page-heading#current {
@@ -24,21 +29,64 @@
     padding-top: 2rem;
 }
 
+.current-photo {
+    border-radius: 20px;
+    margin: 3rem 0 5rem 0;
+    grid-area: 1 / 2 / 6 / 9;
+    z-index: 2;
+}
+
+.circle-230#index-1 {
+    background-color: var(--color-secondary);
+    grid-area: 3 / 5 / 7 / 10;
+    z-index: 1;
+}
+
+.circle-71#index-1 {
+    background-color: var(--color-primary);
+    grid-area: 6 / 2 / 8 / 3;
+}
+
 .project-page-heading#past {
     color: var(--color-white);
     text-transform: uppercase;
+}
+
+.projects-block {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.circle-230#index-2 {
+    background-color: var(--color-secondary);
+    grid-area: 5 / 1 / 8 / 4;
+}
+
+.circle-85#index-1 {
+    background-color: var(--color-primary);
+    grid-area: 2 / 7 / 4 / 9;
+}
+
+.circle-85#index-2 {
+    background-color: var(--color-primary);
+    grid-area: 8 / 8 / 10 / 10;
 }
 
 .projects-button-list ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    grid-area: 1 / 2 / 9 / 9;
 }
 
 .projects-button-list li button {
-    background: rgb(39, 33, 13, 0.75);
+    background: var(--color-white);
+    opacity: 50%;
     border: none;
-    border-radius: 10px;
+    border-radius: 25px;
     padding: 3rem 1rem;
     box-sizing: border-box;
     margin: 0.5rem;
@@ -63,10 +111,6 @@
 
 .project-video {
     margin-bottom: 1rem;
-}
-
-.current-photo {
-    width: 100vw;
 }
 
 .film-description {
