@@ -1,3 +1,7 @@
+.logo {
+    color: var(--color-base);
+}
+
 #contact-body {
     background-color: var(--color-primary);
 }
@@ -8,6 +12,7 @@
 
 .text-block-curved#contact{
     background-color: var(--color-secondary);
+    padding-bottom: 5rem;
 }
 
 .text-block-curved ul {
@@ -17,7 +22,7 @@
 }
 
 .text-block-curved li {
-    margin: 2rem 2rem 1.5rem 2rem;
+    margin: 2rem 1rem 1.5rem 1rem;
 }
 
 .text-block-curved i:first-child {
@@ -31,6 +36,7 @@
     margin: 0;
     font-size: var(--font-30);
     font-family: var(--font-paras);
+    font-weight: var(--font-weight-medium);
     color: var(--color-base);
     text-decoration: none;
 }
@@ -45,4 +51,5 @@
 .contact-btn i { /* icon */
     margin-right: 1rem;
     font-size: var(--font-30);
+    font-weight: bold;
 }
