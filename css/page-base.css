@@ -1,32 +1,21 @@
 @font-face {
     font-family: 'LeagueSpartan';
     src: url('../fonts/LeagueSpartan-Bold.ttf') format('truetype');
-    font-weight: 800;
-    font-style: bold;
 }
 
-/* Regular Style */
 @font-face {
-    font-family: 'DMSans';
-    src: url('../fonts/DMSans-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
+    font-family: 'Magilio';
+    src: url('../fonts/MagilioRegular-Yzv2O.ttf') format('truetype');
 }
 
-/* Italic Style */
 @font-face {
-    font-family: 'DMSans';
-    src: url('../fonts/DMSans-Italic.ttf') format('truetype');
-    font-weight: 400;
-    font-style: italic;
+    font-family: 'Archivo';
+    src: url('../fonts/Archivo-VariableFont_wdth,wght.ttf') format('truetype');
 }
 
-/* Extra Bold */
 @font-face {
-    font-family: 'DMSans';
-    src: url('../fonts/DMSans-ExtraBold.ttf') format('truetype');
-    font-weight: 800;
-    font-style: normal;
+    font-family: 'Archivo-Italic';
+    src: url('../fonts/Archivo-Italic-VariableFont_wdth,wght.ttf') format('truetype');
 }
 
 :root {
@@ -39,10 +28,15 @@
     --color-link: #031A6B;
     --color-white: #E8E8E8;
 
-    --font-headers: 'LeagueSpartan', sans-serif;
-    --font-paras: 'DM Sans', sans-serif;
+    --font-headers: 'Magilio', sans-serif;
+    --font-subheaders: 'LeagueSpartan', sans-serif;
+    --font-paras: 'Archivo', sans-serif;
+    --font-italic: 'Archivo-Italic', sans-serif;
 
+    --font-weight-light: 300;
     --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semi-bold: 600;
     --font-weight-bold: 800;
 
     --font-20: 1.25rem;
@@ -88,9 +82,9 @@ body {
     padding: 1rem;
 }
 
-.circle-71 {
-    width: 71px;
-    height: 71px;
+.circle-85 {
+    width: 85px;
+    height: 85px;
     border-radius: 50%;
 }
 
