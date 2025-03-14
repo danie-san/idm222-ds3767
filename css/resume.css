@@ -1,29 +1,39 @@
 .resume-block {
-    padding: 1rem;
-    margin: 0;
+  padding: 1.5rem;
+  margin: 1rem;
 
-    p {
-        margin: 0;
-        color: var(--color-text);
-        font-family: var(--font-paras);
-        font-size: var(--font-24);
-    }
+  p {
+    margin: 0;
+    color: var(--color-white);
+    font-family: var(--font-paras);
+    font-size: var(--font-24);
+    line-height: 1.75rem;
+    text-align: left;
+  }
 }
 
 .resume-subtitle {
-    color: var(--color-title);
-    font-family: var(--font-headers);
-    font-size: var(--font-30);
+  color: var(--color-title);
+  font-family: var(--font-subheaders);
+  font-size: var(--font-30);
 }
 
 .resume-subtitle-white {
-    color: var(--color-white);
-    font-family: var(--font-headers);
-    font-size: var(--font-30);
-  }
+  color: var(--color-base);
+  font-family: var(--font-subheaders);
+  font-size: var(--font-30);
+}
+
+.text-block-curved {
+  background-color: var(--color-secondary);
+  padding: 1.5rem;
+  margin: 1rem;
+}
 
 .text-block-curved p {
-  color: var(--color-white);
+  color: var(--color-base);
   font-family: var(--font-paras);
   font-size: var(--font-24);
+  line-height: 1.75rem;
+  text-align: left;
 }
