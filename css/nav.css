@@ -24,7 +24,7 @@ header label span {
   border-radius: 5px;
   display: block;
   height: 0.5rem;
-  width: 1.5rem;
+  width: 2rem;
   background-color: var(--color-secondary);
   position: relative;
   transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
@@ -47,9 +47,9 @@ header label span:nth-child(3) {
 nav {
   background: var(--color-secondary);
   height: 100vh;
-  width: 15rem;
+  width: 20rem;
   position: fixed;
-  left: -300px;
+  left: -375px;
   top: 0;
   z-index: 1000;
   transition: left 0.3s ease-in-out;
@@ -70,6 +70,7 @@ nav ul li {
 nav ul li:first-child {
   font-family: var(--font-headers);
   font-weight: bold;
+  letter-spacing: 0.1rem;
   font-size: 2rem;
   margin-top: 8rem;
   margin-bottom: 2rem;
@@ -101,6 +102,7 @@ nav ul li a {
   font-family: var(--font-headers);
   font-size: 2.5rem;
   font-weight: bold;
+  letter-spacing: 0.13rem;
   margin-left: 1rem;
   text-align: right;
   text-decoration: none;
