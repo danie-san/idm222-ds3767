@@ -63,42 +63,48 @@ img {
 .circle-230#index-2 {
     background-color: var(--color-secondary);
     grid-area: 5 / 1 / 8 / 4;
-}
-
-.circle-85#index-1 {
-    background-color: var(--color-primary);
-    grid-area: 2 / 7 / 4 / 9;
+    margin-left: -8rem;
 }
 
 .circle-85#index-2 {
-    background-color: var(--color-primary);
+    background-color: var(--color-secondary);
     grid-area: 8 / 8 / 10 / 10;
+}
+
+.circle-71#index-2 {
+    background-color: var(--color-primary);
+    grid-area: 7 / 7 / 8 / 8;
+}
+
+.projects-button-list {
+    grid-area: 1 / 2 / 9 / 9;
+    z-index: 2;
 }
 
 .projects-button-list ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    grid-area: 1 / 2 / 9 / 9;
 }
 
 .projects-button-list li button {
-    background: var(--color-white);
+    background-color: var(--color-white);
     opacity: 50%;
     border: none;
     border-radius: 25px;
     padding: 3rem 1rem;
     box-sizing: border-box;
     margin: 0.5rem;
-    width: 95vw;
+    width: 100%;
 
     font-size: var(--font-24);
-    color: var(--color-white);
+    color: var(--color-base);
 }
 
 .back-link {
     margin: 1rem;
-    font-family: 'Inter';
+    font-family: var(--font-paras);
+    font-weight: var(--font-weight-regular);
     color: var(--color-secondary);
     font-size: 1.5rem;
     margin-left: 1rem;
