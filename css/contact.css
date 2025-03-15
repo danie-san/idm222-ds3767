@@ -49,7 +49,29 @@
 }
 
 .contact-btn i { /* icon */
-    margin-right: 1rem;
+    margin-right: 0.5rem;
     font-size: var(--font-30);
     font-weight: bold;
+}
+
+@media screen and (max-width: 360px){
+    .contact-btn {
+        font-size: var(--font-20);
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 435px){
+    .contact-btn {
+        font-size: var(--font-24);
+    }
+}
+
+@media screen and (min-width: 780px){
+    .text-block-curved ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        list-style: none;
+        padding: 0;
+    }
 }

@@ -220,6 +220,14 @@ img {
         height: 150px;
     }
 
+    .subtitle {
+        font-size: var(--font-20);
+    }
+    
+    .subtitle span {
+        font-size: var(--font-24);
+    }
+
     .button-item {
         font-size: var(--font-30);
     }
@@ -244,6 +252,14 @@ img {
     .circle-230#index-1 {
         width: 200px;
         height: 200px;
+    }
+
+    .subtitle {
+        font-size: var(--font-20);
+    }
+    
+    .subtitle span {
+        font-size: var(--font-24);
     }
 
     .button-item {
