@@ -273,11 +273,11 @@ img {
     }
 
     .subtitle {
-        font-size: var(--font-30);
+        font-size: var(--font-20);
     }
     
     .subtitle span {
-        font-size: var(--font-36);
+        font-size: var(--font-24);
     }
 
     .button-item {
@@ -427,7 +427,7 @@ img {
     }
 
     .circle-230#index-1 {
-        grid-area: 1 / 4 /6 / 9;
+        grid-area: 1 / 4 / 6 / 9;
     }
 
     .page-half {
