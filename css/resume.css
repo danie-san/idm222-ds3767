@@ -37,3 +37,23 @@
   line-height: 1.75rem;
   text-align: left;
 }
+
+
+.resume-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+@media screen and (min-width: 652px) {
+  .resume-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+        "one three"
+        "two four";
+  }
+
+  .resume-block:nth-child(1) { grid-area: one; }
+  .resume-block:nth-child(2) { grid-area: two; }
+  .resume-block:nth-child(3) { grid-area: four; }
+  .resume-block:nth-child(4) { grid-area: three; }
+}
